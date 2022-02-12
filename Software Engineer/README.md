@@ -13,9 +13,10 @@ Using the GitHub API. We want to create a leaders board for contributors to a re
 - As a user, I can see the list of users by their username, count PR reviews, count PRs.
     - The table is ordered by the number of PRs the user reviewed.
     - Contain only last month stats (the duration should be easily changeable)
-
-Username    Reviewed PRs    Opened PRs
-whyounes        30              12
+    
+| Username | Reviewed PRs | Opened PRs |
+| ---------| ------------ | ---------- |
+| whyounes | 30           | 12         |
 
 Below are important points to be present in the solution:
 - Unit tests.
